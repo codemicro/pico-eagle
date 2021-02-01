@@ -4,6 +4,9 @@
 
 **A basic Eagle library for the Raspberry Pi Pico microcontroller board**
 
+* Currently only with through-hole versions
+* Surface mount hopefully coming soon (feel free to PR)
+
 Created based on the [Raspberry Pi Pico datasheet](https://datasheets.raspberrypi.org/pico/pico-datasheet.pdf).
 
 This has not been tested on an actual PCB - the most testing that has been done is a printed template to check everything looks like it lines up.
