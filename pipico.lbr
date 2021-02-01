@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -60,7 +60,8 @@
 <library>
 <description>Raspberry Pi Pico microcontroller board library</description>
 <packages>
-<package name="FT_RASPBERRY-PI-PICO">
+<package name="FT_RASPBERRY-PI-PICO_TH">
+<description>Raspberry Pi Pico through-hole footprint</description>
 <wire x1="0" y1="0" x2="21" y2="0" width="0.127" layer="21"/>
 <wire x1="21" y1="0" x2="21" y2="-51" width="0.127" layer="21"/>
 <wire x1="21" y1="-51" x2="0" y2="-51" width="0.127" layer="21"/>
@@ -105,13 +106,14 @@
 <pad name="P$38" x="19.39" y="-44.55" drill="1"/>
 <pad name="P$39" x="19.39" y="-47.09" drill="1"/>
 <pad name="P$40" x="19.39" y="-49.63" drill="1"/>
-<pad name="SWCLK" x="7.96" y="-49.39" drill="1"/>
-<pad name="GND" x="10.5" y="-49.39" drill="1"/>
-<pad name="SWDIO" x="13.04" y="-49.39" drill="1"/>
-<hole x="4.8" y="-49" drill="2.1"/>
-<hole x="16.2" y="-49" drill="2.1"/>
-<hole x="4.8" y="-2" drill="2.1"/>
-<hole x="16.2" y="-2" drill="2.1"/>
+<pad name="SWCLK" x="7.96" y="-49.4" drill="1"/>
+<pad name="GND" x="10.5" y="-49.4" drill="1"/>
+<pad name="SWDIO" x="13.04" y="-49.4" drill="1"/>
+<wire x1="6" y1="1" x2="15" y2="1" width="0.127" layer="21"/>
+<wire x1="15" y1="1" x2="15" y2="-4" width="0.127" layer="21"/>
+<wire x1="15" y1="-4" x2="6" y2="-4" width="0.127" layer="21"/>
+<wire x1="6" y1="1" x2="6" y2="-4" width="0.127" layer="21"/>
+<text x="7" y="-3" size="1.27" layer="21">USB</text>
 </package>
 </packages>
 <symbols>
@@ -167,13 +169,13 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="RASPBERRY-PI-PICO">
-<description>Raspberry Pi Pico microcontroller board</description>
+<deviceset name="RASPBERRY-PI-PICO_TH">
+<description>Raspberry Pi Pico microcontroller board for through-hole mounting.</description>
 <gates>
 <gate name="G$1" symbol="SYM_RASPBERRY-PI-PICO" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="FT_RASPBERRY-PI-PICO">
+<device name="" package="FT_RASPBERRY-PI-PICO_TH">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="10" pad="P$10"/>
