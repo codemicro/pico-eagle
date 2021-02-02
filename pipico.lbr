@@ -62,58 +62,58 @@
 <packages>
 <package name="FT_RASPBERRY-PI-PICO_TH">
 <description>Raspberry Pi Pico through-hole footprint</description>
-<wire x1="0" y1="0" x2="21" y2="0" width="0.127" layer="21"/>
-<wire x1="21" y1="0" x2="21" y2="-51" width="0.127" layer="21"/>
-<wire x1="21" y1="-51" x2="0" y2="-51" width="0.127" layer="21"/>
-<wire x1="0" y1="-51" x2="0" y2="0" width="0.127" layer="21"/>
-<pad name="P$1" x="1.61" y="-1.37" drill="1"/>
-<pad name="P$2" x="1.61" y="-3.91" drill="1"/>
-<pad name="P$3" x="1.61" y="-6.45" drill="1"/>
-<pad name="P$4" x="1.61" y="-8.99" drill="1"/>
-<pad name="P$5" x="1.61" y="-11.53" drill="1"/>
-<pad name="P$6" x="1.61" y="-14.07" drill="1"/>
-<pad name="P$7" x="1.61" y="-16.61" drill="1"/>
-<pad name="P$8" x="1.61" y="-19.15" drill="1"/>
-<pad name="P$9" x="1.61" y="-21.69" drill="1"/>
-<pad name="P$10" x="1.61" y="-24.23" drill="1"/>
-<pad name="P$11" x="1.61" y="-26.77" drill="1"/>
-<pad name="P$12" x="1.61" y="-29.31" drill="1"/>
-<pad name="P$13" x="1.61" y="-31.85" drill="1"/>
-<pad name="P$14" x="1.61" y="-34.39" drill="1"/>
-<pad name="P$15" x="1.61" y="-36.93" drill="1"/>
-<pad name="P$16" x="1.61" y="-39.47" drill="1"/>
-<pad name="P$17" x="1.61" y="-42.01" drill="1"/>
-<pad name="P$18" x="1.61" y="-44.55" drill="1"/>
-<pad name="P$19" x="1.61" y="-47.09" drill="1"/>
-<pad name="P$20" x="1.61" y="-49.63" drill="1"/>
-<pad name="P$21" x="19.39" y="-1.37" drill="1"/>
-<pad name="P$22" x="19.39" y="-3.91" drill="1"/>
-<pad name="P$23" x="19.39" y="-6.45" drill="1"/>
-<pad name="P$24" x="19.39" y="-8.99" drill="1"/>
-<pad name="P$25" x="19.39" y="-11.53" drill="1"/>
-<pad name="P$26" x="19.39" y="-14.07" drill="1"/>
-<pad name="P$27" x="19.39" y="-16.61" drill="1"/>
-<pad name="P$28" x="19.39" y="-19.15" drill="1"/>
-<pad name="P$29" x="19.39" y="-21.69" drill="1"/>
-<pad name="P$30" x="19.39" y="-24.23" drill="1"/>
-<pad name="P$31" x="19.39" y="-26.77" drill="1"/>
-<pad name="P$32" x="19.39" y="-29.31" drill="1"/>
-<pad name="P$33" x="19.39" y="-31.85" drill="1"/>
-<pad name="P$34" x="19.39" y="-34.39" drill="1"/>
-<pad name="P$35" x="19.39" y="-36.93" drill="1"/>
-<pad name="P$36" x="19.39" y="-39.47" drill="1"/>
-<pad name="P$37" x="19.39" y="-42.01" drill="1"/>
-<pad name="P$38" x="19.39" y="-44.55" drill="1"/>
-<pad name="P$39" x="19.39" y="-47.09" drill="1"/>
-<pad name="P$40" x="19.39" y="-49.63" drill="1"/>
-<pad name="SWCLK" x="7.96" y="-49.4" drill="1"/>
-<pad name="GND" x="10.5" y="-49.4" drill="1"/>
-<pad name="SWDIO" x="13.04" y="-49.4" drill="1"/>
-<wire x1="6" y1="1" x2="15" y2="1" width="0.127" layer="21"/>
-<wire x1="15" y1="1" x2="15" y2="-4" width="0.127" layer="21"/>
-<wire x1="15" y1="-4" x2="6" y2="-4" width="0.127" layer="21"/>
-<wire x1="6" y1="1" x2="6" y2="-4" width="0.127" layer="21"/>
-<text x="7" y="-3" size="1.27" layer="21">USB</text>
+<wire x1="-10.16" y1="25.4" x2="10.84" y2="25.4" width="0.127" layer="21"/>
+<wire x1="10.84" y1="25.4" x2="10.84" y2="-25.6" width="0.127" layer="21"/>
+<wire x1="10.84" y1="-25.6" x2="-10.16" y2="-25.6" width="0.127" layer="21"/>
+<wire x1="-10.16" y1="-25.6" x2="-10.16" y2="25.4" width="0.127" layer="21"/>
+<pad name="1" x="-8.55" y="24.03" drill="1"/>
+<pad name="2" x="-8.55" y="21.49" drill="1"/>
+<pad name="3" x="-8.55" y="18.95" drill="1"/>
+<pad name="4" x="-8.55" y="16.41" drill="1"/>
+<pad name="5" x="-8.55" y="13.87" drill="1"/>
+<pad name="6" x="-8.55" y="11.33" drill="1"/>
+<pad name="7" x="-8.55" y="8.79" drill="1"/>
+<pad name="8" x="-8.55" y="6.25" drill="1"/>
+<pad name="9" x="-8.55" y="3.71" drill="1"/>
+<pad name="10" x="-8.55" y="1.17" drill="1"/>
+<pad name="11" x="-8.55" y="-1.37" drill="1"/>
+<pad name="12" x="-8.55" y="-3.91" drill="1"/>
+<pad name="13" x="-8.55" y="-6.45" drill="1"/>
+<pad name="14" x="-8.55" y="-8.99" drill="1"/>
+<pad name="15" x="-8.55" y="-11.53" drill="1"/>
+<pad name="16" x="-8.55" y="-14.07" drill="1"/>
+<pad name="17" x="-8.55" y="-16.61" drill="1"/>
+<pad name="18" x="-8.55" y="-19.15" drill="1"/>
+<pad name="19" x="-8.55" y="-21.69" drill="1"/>
+<pad name="20" x="-8.55" y="-24.23" drill="1"/>
+<pad name="40" x="9.23" y="24.03" drill="1"/>
+<pad name="39" x="9.23" y="21.49" drill="1"/>
+<pad name="38" x="9.23" y="18.95" drill="1"/>
+<pad name="37" x="9.23" y="16.41" drill="1"/>
+<pad name="36" x="9.23" y="13.87" drill="1"/>
+<pad name="35" x="9.23" y="11.33" drill="1"/>
+<pad name="34" x="9.23" y="8.79" drill="1"/>
+<pad name="33" x="9.23" y="6.25" drill="1"/>
+<pad name="32" x="9.23" y="3.71" drill="1"/>
+<pad name="31" x="9.23" y="1.17" drill="1"/>
+<pad name="30" x="9.23" y="-1.37" drill="1"/>
+<pad name="29" x="9.23" y="-3.91" drill="1"/>
+<pad name="28" x="9.23" y="-6.45" drill="1"/>
+<pad name="27" x="9.23" y="-8.99" drill="1"/>
+<pad name="26" x="9.23" y="-11.53" drill="1"/>
+<pad name="25" x="9.23" y="-14.07" drill="1"/>
+<pad name="24" x="9.23" y="-16.61" drill="1"/>
+<pad name="23" x="9.23" y="-19.15" drill="1"/>
+<pad name="22" x="9.23" y="-21.69" drill="1"/>
+<pad name="21" x="9.23" y="-24.23" drill="1"/>
+<pad name="SWCLK" x="-2.2" y="-24" drill="1"/>
+<pad name="GND" x="0.34" y="-24" drill="1"/>
+<pad name="SWDIO" x="2.88" y="-24" drill="1"/>
+<wire x1="-4.16" y1="26.4" x2="4.84" y2="26.4" width="0.127" layer="21"/>
+<wire x1="4.84" y1="26.4" x2="4.84" y2="21.4" width="0.127" layer="21"/>
+<wire x1="4.84" y1="21.4" x2="-4.16" y2="21.4" width="0.127" layer="21"/>
+<wire x1="-4.16" y1="26.4" x2="-4.16" y2="21.4" width="0.127" layer="21"/>
+<text x="-3.16" y="22.4" size="1.27" layer="21">USB</text>
 </package>
 </packages>
 <symbols>
@@ -177,46 +177,46 @@
 <devices>
 <device name="" package="FT_RASPBERRY-PI-PICO_TH">
 <connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="10" pad="P$10"/>
-<connect gate="G$1" pin="11" pad="P$11"/>
-<connect gate="G$1" pin="12" pad="P$12"/>
-<connect gate="G$1" pin="13" pad="P$13"/>
-<connect gate="G$1" pin="14" pad="P$14"/>
-<connect gate="G$1" pin="15" pad="P$15"/>
-<connect gate="G$1" pin="16" pad="P$16"/>
-<connect gate="G$1" pin="17" pad="P$17"/>
-<connect gate="G$1" pin="18" pad="P$18"/>
-<connect gate="G$1" pin="19" pad="P$19"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-<connect gate="G$1" pin="20" pad="P$20"/>
-<connect gate="G$1" pin="21" pad="P$21"/>
-<connect gate="G$1" pin="22" pad="P$22"/>
-<connect gate="G$1" pin="23" pad="P$23"/>
-<connect gate="G$1" pin="24" pad="P$24"/>
-<connect gate="G$1" pin="25" pad="P$25"/>
-<connect gate="G$1" pin="26" pad="P$26"/>
-<connect gate="G$1" pin="27" pad="P$27"/>
-<connect gate="G$1" pin="28" pad="P$28"/>
-<connect gate="G$1" pin="29" pad="P$29"/>
-<connect gate="G$1" pin="3" pad="P$3"/>
-<connect gate="G$1" pin="30" pad="P$30"/>
-<connect gate="G$1" pin="31" pad="P$31"/>
-<connect gate="G$1" pin="32" pad="P$32"/>
-<connect gate="G$1" pin="33" pad="P$33"/>
-<connect gate="G$1" pin="34" pad="P$34"/>
-<connect gate="G$1" pin="35" pad="P$35"/>
-<connect gate="G$1" pin="36" pad="P$36"/>
-<connect gate="G$1" pin="37" pad="P$37"/>
-<connect gate="G$1" pin="38" pad="P$38"/>
-<connect gate="G$1" pin="39" pad="P$39"/>
-<connect gate="G$1" pin="4" pad="P$4"/>
-<connect gate="G$1" pin="40" pad="P$40"/>
-<connect gate="G$1" pin="5" pad="P$5"/>
-<connect gate="G$1" pin="6" pad="P$6"/>
-<connect gate="G$1" pin="7" pad="P$7"/>
-<connect gate="G$1" pin="8" pad="P$8"/>
-<connect gate="G$1" pin="9" pad="P$9"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="21" pad="21"/>
+<connect gate="G$1" pin="22" pad="22"/>
+<connect gate="G$1" pin="23" pad="23"/>
+<connect gate="G$1" pin="24" pad="24"/>
+<connect gate="G$1" pin="25" pad="25"/>
+<connect gate="G$1" pin="26" pad="26"/>
+<connect gate="G$1" pin="27" pad="27"/>
+<connect gate="G$1" pin="28" pad="28"/>
+<connect gate="G$1" pin="29" pad="29"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="30" pad="30"/>
+<connect gate="G$1" pin="31" pad="31"/>
+<connect gate="G$1" pin="32" pad="32"/>
+<connect gate="G$1" pin="33" pad="33"/>
+<connect gate="G$1" pin="34" pad="34"/>
+<connect gate="G$1" pin="35" pad="35"/>
+<connect gate="G$1" pin="36" pad="36"/>
+<connect gate="G$1" pin="37" pad="37"/>
+<connect gate="G$1" pin="38" pad="38"/>
+<connect gate="G$1" pin="39" pad="39"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="40" pad="40"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
 <connect gate="G$1" pin="GND" pad="GND"/>
 <connect gate="G$1" pin="SWCLK" pad="SWCLK"/>
 <connect gate="G$1" pin="SWDIO" pad="SWDIO"/>
