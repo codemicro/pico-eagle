@@ -8,7 +8,7 @@
 
 Created based on the [Raspberry Pi Pico datasheet](https://datasheets.raspberrypi.org/pico/pico-datasheet.pdf).
 
-This has not been tested on an actual PCB - the most testing that has been done is a printed template to check everything looks like it lines up.
+~~This has not been tested on an actual PCB - the most testing that has been done is a printed template to check everything looks like it lines up.~~ This has been tested on a PCB from JLCPCB, and it's perfect!
 
 ------
 
